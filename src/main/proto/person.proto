@@ -1,0 +1,6 @@
+syntax = "proto3";
+option java_package = "com.devSayan.proto";
+message person{
+  string name = 1;
+  int32 age = 2;
+}
